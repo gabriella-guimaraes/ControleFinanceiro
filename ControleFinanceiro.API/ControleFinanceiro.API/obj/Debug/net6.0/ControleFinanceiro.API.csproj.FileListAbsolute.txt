@@ -71,5 +71,3 @@ C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.AP
 C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\bin\Debug\net6.0\ControleFinanceiro.DAL.dll
 C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\bin\Debug\net6.0\ControleFinanceiro.BLL.pdb
 C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\bin\Debug\net6.0\ControleFinanceiro.DAL.pdb
-C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\bin\Debug\net6.0\Humanizer.dll
-C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

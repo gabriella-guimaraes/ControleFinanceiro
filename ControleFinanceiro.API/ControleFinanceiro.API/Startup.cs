@@ -29,6 +29,8 @@ namespace ControleFinanceiro.API
         {
 
             services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("ConexaoBD")));
+            services.AddIdentity<Usuario, Funcao>().AddEntityFrameworkStores<Contexto>();
+
             services.AddCors();
             services.AddSpaStaticFiles(diretorio =>
             {
