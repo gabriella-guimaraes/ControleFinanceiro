@@ -9,7 +9,7 @@
       "ControleFinanceiro.BLL/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.2.0",
-          "Microsoft.Extensions.Identity.Stores": "6.0.2"
+          "Microsoft.Extensions.Identity.Stores": "6.0.7"
         },
         "runtime": {
           "ControleFinanceiro.BLL.dll": {}
@@ -69,28 +69,28 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Cryptography.Internal/6.0.2": {
+      "Microsoft.AspNetCore.Cryptography.Internal/6.0.7": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.222.6412"
+            "fileVersion": "6.0.722.32205"
           }
         }
       },
-      "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.2": {
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.7": {
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.2"
+          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.7"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.222.6412"
+            "fileVersion": "6.0.722.32205"
           }
         }
       },
       "Microsoft.AspNetCore.DataProtection/2.2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.2",
+          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.7",
           "Microsoft.AspNetCore.DataProtection.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
@@ -195,9 +195,9 @@
       "Microsoft.AspNetCore.Identity/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.2",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.7",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Identity.Core": "6.0.2"
+          "Microsoft.Extensions.Identity.Core": "6.0.7"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Identity.dll": {
@@ -285,29 +285,29 @@
           }
         }
       },
-      "Microsoft.Extensions.Identity.Core/6.0.2": {
+      "Microsoft.Extensions.Identity.Core/6.0.7": {
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.2",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.7",
           "Microsoft.Extensions.Logging": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.Identity.Core.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.222.6412"
+            "fileVersion": "6.0.722.32205"
           }
         }
       },
-      "Microsoft.Extensions.Identity.Stores/6.0.2": {
+      "Microsoft.Extensions.Identity.Stores/6.0.7": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Identity.Core": "6.0.2",
+          "Microsoft.Extensions.Identity.Core": "6.0.7",
           "Microsoft.Extensions.Logging": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.Identity.Stores.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.222.6412"
+            "fileVersion": "6.0.722.32205"
           }
         }
       },
@@ -495,19 +495,19 @@
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Cryptography.Internal/6.0.2": {
+    "Microsoft.AspNetCore.Cryptography.Internal/6.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RIBFX++rCL0bd3V3td3115oXckkSV9hCKZSwWpmF8oaW3BY3Ow51imVY+cx8/GrlEfuZz4DzRPbwrGFIMF4qhw==",
-      "path": "microsoft.aspnetcore.cryptography.internal/6.0.2",
-      "hashPath": "microsoft.aspnetcore.cryptography.internal.6.0.2.nupkg.sha512"
+      "sha512": "sha512-BYqRUiLXtOfKNUj2Pt5kdvrKkVTgUAZvEL4kuBPMrczNtLq7z4zZH2nXXYD/h353ZHV0r1+jkl1PXrlxfIPYyg==",
+      "path": "microsoft.aspnetcore.cryptography.internal/6.0.7",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.6.0.7.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.2": {
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-G1fZSbFt8olR186rsNcPLnw+syPIXi0Fmt+1e0j82kWjJmMUjcTauv61PNxzNK5q2IJtXbgJTHbU8LQgI9+L7A==",
-      "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.2",
-      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.2.nupkg.sha512"
+      "sha512": "sha512-iKQgXepVT2n98sheTQWhr/1EEzVspsVZKVL9GYhb8AIXw7J9fnJ2sLkS10SvwXlH9TP9vP3zOnOdW72O6g5lFg==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.7",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.7.nupkg.sha512"
     },
     "Microsoft.AspNetCore.DataProtection/2.2.0": {
       "type": "package",
@@ -621,19 +621,19 @@
       "path": "microsoft.extensions.hosting.abstractions/2.2.0",
       "hashPath": "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Identity.Core/6.0.2": {
+    "Microsoft.Extensions.Identity.Core/6.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jrLuTJ0sFMb0+vqBVE2na3Tp8IE2VGcoX2/yAcO/bqI0CJOCzI3iKN+718Ac5/tcmbFNQA3IKCGbOTLN+C7r2Q==",
-      "path": "microsoft.extensions.identity.core/6.0.2",
-      "hashPath": "microsoft.extensions.identity.core.6.0.2.nupkg.sha512"
+      "sha512": "sha512-UDCKCQ+byNzbowlZwp+VWd02LbqNAtRNKK43xTxprdMkbfUonoMBTCtOnpW86pmVnNZo8SxclOxmOsX5heuAgA==",
+      "path": "microsoft.extensions.identity.core/6.0.7",
+      "hashPath": "microsoft.extensions.identity.core.6.0.7.nupkg.sha512"
     },
-    "Microsoft.Extensions.Identity.Stores/6.0.2": {
+    "Microsoft.Extensions.Identity.Stores/6.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x67HOHmsrAsSGon1GD3cy0i0JMVuiGTNp1S1TLcjXg1JKhTNJgIusys/8fAIhf9pZTX6yQsoCeuCek6Y+bduQQ==",
-      "path": "microsoft.extensions.identity.stores/6.0.2",
-      "hashPath": "microsoft.extensions.identity.stores.6.0.2.nupkg.sha512"
+      "sha512": "sha512-/I+jLCCQvR+1LabnhQzc3HvJwkpHFpxk0+rW4SoB21s98YCsfdighh5/G3QJk9vLqHlIZYGxLn6pb4SEfXesDg==",
+      "path": "microsoft.extensions.identity.stores/6.0.7",
+      "hashPath": "microsoft.extensions.identity.stores.6.0.7.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/6.0.0": {
       "type": "package",

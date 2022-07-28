@@ -385,6 +385,18 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.7"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1000,7 +1012,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.2.0",
-          "Microsoft.Extensions.Identity.Stores": "6.0.2"
+          "Microsoft.Extensions.Identity.Stores": "6.0.7"
         },
         "compile": {
           "bin/placeholder/ControleFinanceiro.BLL.dll": {}
@@ -1502,6 +1514,30 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.6.0.7.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.7": {
+      "sha512": "Gdv70a73pXNYwvlo278uPFU4zo5Dnl5sB1eiAHyc7AUd3xeWueqx9ke9F4n1CHnEaB9h21x/c2waQAdMJqcYCQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/6.0.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.6.0.7.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -2655,8 +2691,8 @@
     "net6.0": [
       "ControleFinanceiro.BLL >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.7",
-      "Microsoft.EntityFrameworkCore.Design >= 6.0.7",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.7"
     ]
   },
   "packageFolders": {
@@ -2706,13 +2742,13 @@
             "target": "Package",
             "version": "[6.0.7, )"
           },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.7, )"
           },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.7, )"
           }
