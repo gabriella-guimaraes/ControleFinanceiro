@@ -1,4 +1,3 @@
-C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\obj\Debug\net6.0\ControleFinanceiro.API.csproj.AssemblyReference.cache
 C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\obj\Debug\net6.0\ControleFinanceiro.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\obj\Debug\net6.0\ControleFinanceiro.API.AssemblyInfoInputs.cache
 C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.API\ControleFinanceiro.API\obj\Debug\net6.0\ControleFinanceiro.API.AssemblyInfo.cs
