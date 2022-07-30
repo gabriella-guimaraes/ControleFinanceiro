@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Builder;
+using ControleFinanceiro.DAL;
+using Microsoft.EntityFrameworkCore;
+using ControleFinanceiro.BLL.Models;
 
 namespace ControleFinanceiro.API
 {
@@ -17,21 +21,21 @@ namespace ControleFinanceiro.API
     {
         public Startup(IConfiguration configuration)
         {
-            configuration = configuration;
+            Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
-
-        // This method gets called by runtime. Use this method to add services to the container.
-        public void ConfigurationServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("ConexaoBD")));
+            services.AddIdentity<Usuario, Funcao>().AddEntityFrameworkStores<Contexto>();
+
+            services.AddCors();
             services.AddSpaStaticFiles(diretorio =>
             {
                 diretorio.RootPath = "ControleFinanceiro-UI";
             });
-            
-            services.AddCors();
-            
             services.AddControllers()
                 .AddJsonOptions(opcoes =>
                 {
@@ -42,20 +46,14 @@ namespace ControleFinanceiro.API
                     opcoes.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                 });
         }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-            app.UseCors(opcoes =>
-            {
-                opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-            });
-            
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -75,7 +73,7 @@ namespace ControleFinanceiro.API
             {
                 spa.Options.SourcePath = Path.Combine(Directory.GetCurrentDirectory(), "ControleFinanceiro-UI");
 
-                if(env.IsDevelopment())
+                if (env.IsDevelopment())
                 {
                     spa.UseProxyToSpaDevelopmentServer($"http://localhost:4200/");
                 }

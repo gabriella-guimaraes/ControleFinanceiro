@@ -1,0 +1,17 @@
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net6.0\ControleFinanceiro.DAL.deps.json
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net6.0\ControleFinanceiro.DAL.runtimeconfig.json
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net6.0\ControleFinanceiro.DAL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net6.0\ref\ControleFinanceiro.DAL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net6.0\ControleFinanceiro.DAL.pdb
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net6.0\ControleFinanceiro.BLL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\bin\Debug\net6.0\ControleFinanceiro.BLL.pdb
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.csproj.AssemblyReference.cache
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.AssemblyInfoInputs.cache
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.AssemblyInfo.cs
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.csproj.CoreCompileInputs.cache
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.csproj.CopyComplete
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ref\ControleFinanceiro.DAL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.pdb
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.DAL\obj\Debug\net6.0\ControleFinanceiro.DAL.genruntimeconfig.cache

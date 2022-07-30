@@ -5,7 +5,17 @@
       "ProjectGuid": "a1ec4672-4527-4735-99dd-424857249ea6",
       "DisplayName": "ControleFinanceiro.API",
       "ColorIndex": 0
+    },
+    "dc7e5a53-308d-4f7c-a088-c9e13d783dee": {
+      "ProjectGuid": "dc7e5a53-308d-4f7c-a088-c9e13d783dee",
+      "DisplayName": "ControleFinanceiro.BLL",
+      "ColorIndex": 1
+    },
+    "1d8faf07-8597-46d3-92bf-c38a394c2d30": {
+      "ProjectGuid": "1d8faf07-8597-46d3-92bf-c38a394c2d30",
+      "DisplayName": "ControleFinanceiro.DAL",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

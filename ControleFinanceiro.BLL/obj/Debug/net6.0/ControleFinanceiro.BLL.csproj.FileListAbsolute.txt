@@ -1,0 +1,12 @@
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\bin\Debug\net6.0\ControleFinanceiro.BLL.deps.json
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\bin\Debug\net6.0\ControleFinanceiro.BLL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\bin\Debug\net6.0\ref\ControleFinanceiro.BLL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\bin\Debug\net6.0\ControleFinanceiro.BLL.pdb
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net6.0\ControleFinanceiro.BLL.csproj.AssemblyReference.cache
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net6.0\ControleFinanceiro.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net6.0\ControleFinanceiro.BLL.AssemblyInfoInputs.cache
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net6.0\ControleFinanceiro.BLL.AssemblyInfo.cs
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net6.0\ControleFinanceiro.BLL.csproj.CoreCompileInputs.cache
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net6.0\ControleFinanceiro.BLL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net6.0\ref\ControleFinanceiro.BLL.dll
+C:\Gabi\Projects\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\net6.0\ControleFinanceiro.BLL.pdb

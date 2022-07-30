@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -217,6 +217,19 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Identity.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
+          "Microsoft.Extensions.Identity.Stores": "6.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.WebUtilities/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -337,7 +350,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.7"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -1232,6 +1245,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Identity.xml",
         "microsoft.aspnetcore.identity.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.identity.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.7": {
+      "sha512": "Q5szSgXmOCgKXDFxxYGY3RHrOvNf4j60uVLrlMd98jP6lNii/3K2jeRuKn4UKEm/j94I4GjJyB+tmie/Bb0e9A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.identity.entityframeworkcore.6.0.7.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.WebUtilities/2.2.0": {
@@ -2662,6 +2690,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "ControleFinanceiro.BLL >= 1.0.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.7"
@@ -2710,6 +2739,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.7, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.7, )"

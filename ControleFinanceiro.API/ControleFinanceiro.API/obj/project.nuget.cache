@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Yu6pZli69Q2KbkxY97vvSQYinfhUbKsjbq3z7i0gxuJccZTowLSywQ37mIDw2+TzhL4ONRrQZRAT0w2/8Jq04g==",
+  "dgSpecHash": "gV8J/Dxo5nNr8oisXNK6LvQJvaVfBrgctSmLRnDmqt9OfBcbClljg9C2bumXe72m+L4OJfU1e78bRgSLQPzMUA==",
   "success": true,
   "projectFilePath": "C:\\Gabi\\Projects\\ControleFinanceiro\\ControleFinanceiro.API\\ControleFinanceiro.API\\ControleFinanceiro.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
@@ -19,6 +20,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.identity\\2.2.0\\microsoft.aspnetcore.identity.2.2.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.7\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.7\\microsoft.aspnetcore.jsonpatch.6.0.7.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.7\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.7.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\6.0.7\\microsoft.aspnetcore.spaservices.extensions.6.0.7.nupkg.sha512",
@@ -29,6 +31,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.7\\microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.7\\microsoft.entityframeworkcore.design.6.0.7.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.7\\microsoft.entityframeworkcore.relational.6.0.7.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.7\\microsoft.entityframeworkcore.sqlserver.6.0.7.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
